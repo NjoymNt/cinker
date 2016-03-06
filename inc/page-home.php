@@ -2,9 +2,21 @@
 
 <section class="head">
 	<img src="img/head_bgr.png" alt="header-bgr"/>
+
+	<div class="container-fluid menu-holder-bgr pd0">
+		<div class="container width-override">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<ul class="top-right-info-ul-bgr"></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<img class="head-bgr-front hidden-xs" src="img/head_bgr_front.png" alt="header-bgr-front"/>
 	<div class="container quote-holder">
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
 				<div class="header-quote">
 					<p class="text-left header-quote-p">"A filmmaker has almost the<br/> same freedom as a novelist<br/> has when he buys himself<br/> some paper"</p>
 					<p class="text-right header-quote-name"><b>Stanley Kubrick</b></p>
@@ -12,7 +24,6 @@
 			</div>
 		</div>
 	</div>
-
 </section>
 
 <section class="movies">
@@ -34,27 +45,37 @@
 			<?php include('inc/design-moviebox.php'); ?>
 			<?php include('inc/design-moviebox.php'); ?>
 			<?php include('inc/design-moviebox.php'); ?>
-			<?php include('inc/design-moviebox.php'); ?>
-			<?php include('inc/design-moviebox.php'); ?>
+			<div class="hidden-md hidden-sm hidden-xs"><?php include('inc/design-moviebox.php'); ?>
+				<?php include('inc/design-moviebox.php'); ?></div>
 		</div>
 	</div>
 </section>
 
 <section class="events">
 	<img src="img/blue_right.png" alt="blue-bgr"/>
-	<div class="section-header"><div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<h2 class="pull-left">Events</h2>
+	<div class="section-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="pull-left">Events</h2>
+				</div>
 			</div>
 		</div>
-	</div></div>
-	<div class="container events-wrapper">
-		<div class="row">
-			<?php include('inc/design-eventsbox.php'); ?>
-			<div class="hidden-xs">
-				<?php include('inc/design-eventsbox.php'); ?>
-				<?php include('inc/design-eventsbox.php'); ?>
+	</div>
+	<div class="gallery">
+		<div class="container events-wrapper holder">
+			<div class="step-left hidden-xs"><i class="fa fa-chevron-left"></i></div>
+			<div class="step-right hidden-xs"><i class="fa fa-chevron-right"></i></div>
+			<div class="row step-slider-holder list">
+				<div class="step-slider">
+					<?php include('inc/design-eventsbox.php'); ?>
+					<?php include('inc/design-eventsbox.php'); ?>
+					<?php include('inc/design-eventsbox.php'); ?>
+					<?php include('inc/design-eventsbox.php'); ?>
+					<?php include('inc/design-eventsbox.php'); ?>
+					<?php include('inc/design-eventsbox.php'); ?>
+					<?php include('inc/design-eventsbox.php'); ?>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -97,17 +118,17 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid">
-		<div class="container gallery-wrapper">
-			<div class="row">
+	<div class="container-fluid gallery">
+		<div class="container gallery-wrapper holder">
+			<div class="row list">
 				<?php include('inc/design-gallerybox.php'); ?>
-				<div class="hidden-xs">
+
 					<?php include('inc/design-gallerybox.php'); ?>
 					<?php include('inc/design-gallerybox.php'); ?>
 					<?php include('inc/design-gallerybox.php'); ?>
 					<?php include('inc/design-gallerybox.php'); ?>
 					<?php include('inc/design-gallerybox.php'); ?>
-				</div>
+
 			</div>
 		</div>
 	</div>

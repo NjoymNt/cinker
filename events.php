@@ -2,7 +2,7 @@
 
  $subpage = 1;
  $pageTitle = "Event";
- include('inc/menu.php'); ?>
+ include('inc/subpage-menu.php'); ?>
 
 <?php include('inc/page-events.php'); ?>
 

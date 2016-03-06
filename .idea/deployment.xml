@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="zvs.hu">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/work/cinker" local="$PROJECT_DIR$" web="/work/cinker" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
